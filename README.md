@@ -1,5 +1,7 @@
 # RegistrationForm
-# Create Database using Migration Script then Run the following script:
+
+# After create database using migration script
+# run the following script
 create table Registration    
 (    
  UserId int not null primary key identity(1,1),    
@@ -7,4 +9,4 @@ create table Registration
  Age int,
  PhoneNumber nvarchar(50),
  EmailId nvarchar(150)
-);    
+);
